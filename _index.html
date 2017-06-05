@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title>Js30</title>
+</head>
+<body>
+	<audio class="player" src="https://player.vimeo.com/external/194130480.hd.mp4?s=4fb3a09b7cd30a6afc2d64689151888bbae84ac7&amp;profile_id=119&amp;oauth2_token_id=901465035"></audio>
+	<a href="#" onClick="togglePlay();" style="display: block;">Click</a>
+	<script type="text/javascript">
+	var audio = document.querySelectorAll('player');
+	function togglePlay() {
+	  return audio.paused ? audio.play() : audio.pause();
+	};
+	</script>
+</body>
+</html>
